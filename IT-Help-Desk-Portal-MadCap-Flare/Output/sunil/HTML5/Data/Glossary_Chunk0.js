@@ -1,0 +1,1 @@
+define({'Priority':{d:'The level of urgency assigned to a support ticket.',l:''},'SLA':{d:'Service-level agreement that defines expected response or resolution times.',l:''},'Ticket':{d:'A support request submitted through the IT Help Desk Portal.',l:''}});

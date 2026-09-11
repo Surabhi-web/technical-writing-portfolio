@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_unity_getting_started">
+  <title>Unity + Visual Studio: Getting Started</title>
+  <topicref href="task_install_unity.dita" navtitle="Installing Unity and Connecting It to Visual Studio"/>
+  <topicref href="task_run_first_script.dita" navtitle="Running Your First Script"/>
+  <topicref href="concept_system_requirements.dita" navtitle="System Requirements" toc="no"/>
+</map>

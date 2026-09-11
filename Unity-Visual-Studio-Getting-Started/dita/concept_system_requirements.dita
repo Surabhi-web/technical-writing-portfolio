@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_system_requirements">
+  <title>System Requirements</title>
+  <conbody>
+    <p id="p_min_requirements">Before installing, confirm the workstation meets the following
+      minimum requirements: 64-bit Windows 10/11 or macOS 12+, 8 GB RAM (16 GB recommended),
+      20 GB free disk space, and a DirectX 11 / Metal-capable graphics card.</p>
+    <note id="note_admin_rights" type="important">Administrator rights are required to complete
+      installation. Confirm this with your IT team before starting if you are on a managed
+      device.</note>
+  </conbody>
+</concept>

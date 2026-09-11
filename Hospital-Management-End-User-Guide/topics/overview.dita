@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="hospital-management-overview">
+  <title>Hospital Management System</title>
+  <shortdesc>Overview of the Hospital Management System user interface and the main tasks covered in this guide.</shortdesc>
+  <conbody>
+    <p>This guide helps hospital staff use the Hospital Management System to view patient information, review appointments, and send messages.</p>
+    <p>The examples in this portfolio project use the OpenEMR demonstration environment. The interface may vary depending on user role and system configuration.</p>
+    <section>
+      <title>Audience</title>
+      <p>This guide is intended for hospital staff who use the system to manage day-to-day patient and appointment information.</p>
+    </section>
+    <section>
+      <title>Before you begin</title>
+      <ul>
+        <li>Obtain the login credentials provided by your organization.</li>
+        <li>Use an approved browser and a secure network connection.</li>
+        <li>Do not share patient information or login credentials with unauthorized users.</li>
+      </ul>
+    </section>
+  </conbody>
+</concept>

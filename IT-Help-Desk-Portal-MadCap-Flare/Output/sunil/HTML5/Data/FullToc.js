@@ -1,0 +1,13 @@
+var xmlFullTocData = "";
+xmlFullTocData += '<?xml version=\"1.0\" encoding=\"utf-8\"?>';
+xmlFullTocData += '<CatapultToc Version=\"1\" DescendantCount=\"8\">';
+xmlFullTocData += '    <TocEntry Title=\"create-ticket\" Link=\"/Content/topics/create-ticket.htm\" ComputedResetPageLayout=\"true\" ComputedFirstTopic=\"true\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"dashboard\" Link=\"/Content/topics/dashboard.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"knowledge-base\" Link=\"/Content/topics/knowledge-base.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"overview\" Link=\"/Content/topics/overview.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"sign-in\" Link=\"/Content/topics/sign-in.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"system-requirements\" Link=\"/Content/topics/system-requirements.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"track-ticket\" Link=\"/Content/topics/track-ticket.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '    <TocEntry Title=\"troubleshooting\" Link=\"/Content/topics/troubleshooting.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '</CatapultToc>';
+MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('FullToc', xmlFullTocData);

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="understand-dashboard">
+  <title>Understand the Dashboard</title>
+  <shortdesc>The dashboard provides access to common areas of the Hospital Management System.</shortdesc>
+  <conbody>
+    <lq id="lq_w2h_g4t_nkc">
+      <p><b>After you log in, the dashboard provides access to key areas of the system, including
+          Clinical Documents, Appointments, Secure Messaging, Health Snapshot, and Profile.
+          Additional options may be available depending on your role and system
+        configuration.</b></p>
+    </lq>
+    <fig>
+      <title>Hospital Management System dashboard</title>
+      <image href="../screenshots/dashboard_cropped.png" width= "700">
+        <alt>Hospital Management System dashboard showing the main navigation and message center.</alt>
+      </image>
+    </fig>
+    <section>
+      <title>Navigation</title>
+      <p>Use the navigation controls provided by your role to move between system areas. Available options can differ between user roles.</p>
+    </section>
+  </conbody>
+</concept>

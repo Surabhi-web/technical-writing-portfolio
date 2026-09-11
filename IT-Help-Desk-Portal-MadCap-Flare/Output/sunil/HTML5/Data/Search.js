@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/topics/create-ticket.htm'],s:['0280'],p:[['0280',5]]});

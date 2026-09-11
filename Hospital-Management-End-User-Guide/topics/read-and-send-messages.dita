@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="read-and-send-messages">
+  <title>Read and Send Messages</title>
+  <shortdesc>Review messages and create a new message for a selected patient or recipient.</shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Open the Message Center.<image href="../screenshots/messages_list_cropped.png"
+            id="image_gcp_gd5_nkc" width="600"/></cmd>
+      </step>
+      <step>
+        <cmd>Review the available messages and select a message to read it.</cmd>
+      </step>
+      <step>
+        <cmd>Select the option to create a new message.<image
+            href="../screenshots/create_message_cropped.png" id="image_tqn_ld5_nkc" width="600"
+          /></cmd>
+      </step>
+      <step>
+        <cmd>Select the patient or recipient associated with the message.<image
+            href="../screenshots/patient_selector_cropped.png" id="image_w1g_pd5_nkc" width="600"
+          /></cmd>
+      </step>
+      <step>
+        <cmd>Enter the message details and send the message.</cmd>
+      </step>
+    </steps>
+    <result>The message is submitted to the selected recipient or patient record according to the system configuration.</result>
+  </taskbody>
+</task>

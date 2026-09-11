@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Create a Support Ticket"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/StyleSheets/it-helpdesk.css" />
+    <Link
+      Url="Content/Resources/Images/new-ticket.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/StyleSheets/it-helpdesk.css" />
+    <Link
+      Url="Content/Resources/Images/new-ticket.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/StyleSheets/it-helpdesk.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

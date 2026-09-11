@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_run_first_script">
+  <title>Running Your First Script</title>
+  <shortdesc>Create a simple C# script, attach it to a GameObject, and confirm it runs inside the
+    Unity Editor.</shortdesc>
+  <taskbody>
+    <prereq>
+      <p>Complete <xref href="task_install_unity.dita" format="dita">Installing Unity and
+        Connecting It to Visual Studio</xref> before starting this task.</p>
+    </prereq>
+    <steps>
+      <step>
+        <cmd>In the Unity Project window, right-click and select <uicontrol>Create &gt; C#
+          Script</uicontrol>.</cmd>
+        <info>Name the script <filepath>PlayerGreeting.cs</filepath>.<fig id="fig_hqm_ygt_nkc">
+            <image href="images/Screenshot%202026-09-11%20115447.png" id="image_gxq_2ht_nkc"/>
+          </fig></info>
+      </step>
+      <step>
+        <cmd>Double-click the script to open it in Visual Studio.</cmd>
+      </step>
+      <step>
+        <cmd>Replace the default <codeph>Start()</codeph> method with a line that logs a
+          message, then save the file.</cmd>
+        <info>Example: <codeph>Debug.Log("Hello from Unity!");</codeph><fig id="fig_uv1_ght_nkc">
+            <image href="images/Screenshot%202026-09-11%20115544.png" id="image_p3d_hht_nkc"/>
+          </fig></info>
+      </step>
+      <step>
+        <cmd>Drag the script from the Project window onto any GameObject in the Hierarchy
+          window.</cmd>
+        <stepresult>The script now appears as a component on that GameObject.<fig
+            id="fig_avx_3ht_nkc">
+            <image href="images/Screenshot%202026-09-11%20115625.png" id="image_kpt_jht_nkc"/>
+          </fig></stepresult>
+      </step>
+      <step>
+        <cmd>Select <uicontrol>Play</uicontrol> in the Unity toolbar.</cmd>
+        <stepresult>The message appears in the Unity Console window, confirming the script executed
+            successfully.<fig id="fig_xfv_lht_nkc">
+            <image href="images/Screenshot%202026-09-11%20115837.png" id="image_lkn_mht_nkc"/>
+          </fig></stepresult>
+      </step>
+    </steps>
+    <result>
+      <p>You have confirmed that Unity and Visual Studio are correctly linked and that scripts
+        written in Visual Studio run as expected inside the Unity Editor.</p>
+    </result>
+  </taskbody>
+</task>

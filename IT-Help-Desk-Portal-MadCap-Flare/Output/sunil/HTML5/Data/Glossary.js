@@ -1,0 +1,1 @@
+define({numchunks:1,prefix:'Glossary_Chunk',terms:[{t:'Priority',c:0},{t:'SLA',c:0},{t:'Ticket',c:0}]});

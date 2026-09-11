@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="view-patient-information">
+  <title>View Patient Information</title>
+  <shortdesc>Open a patient's profile to review the information available to your role.</shortdesc>
+  <taskbody>
+    <prereq>Make sure you are authorized to access the patient's information.</prereq>
+    <steps>
+      <step>
+        <cmd>Open the patient record from the available patient-management area.</cmd>
+      </step>
+      <step>
+        <cmd>Select the patient whose information you need to  review.<image
+            href="../screenshots/appointment_search_cropped.png" id="image_wyz_hc5_nkc" width="600"
+          /></cmd>
+      </step>
+      
+      <step>
+        <cmd>Review the information displayed on the patient profile.</cmd>
+      </step>
+    </steps>
+    <result>The selected patient's profile information is displayed.<fig id="fig_nzx_h15_nkc">
+        <image href="../screenshots/profile_cropped.png" id="image_hbr_j15_nkc" width="600"/>
+      </fig></result>
+    <postreq>Close or leave the patient record when you finish reviewing the information, according to your organization's privacy procedures.</postreq>
+  </taskbody>
+</task>

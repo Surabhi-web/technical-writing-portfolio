@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="troubleshooting">
+  <title>Troubleshooting</title>
+  <shortdesc>Common issues and actions to try when using the Hospital Management System.</shortdesc>
+  <refbody>
+    <table frame="all" rowsep="1" colsep="1">
+      <title>Common issues</title>
+      <tgroup cols="3">
+        <colspec colname="issue"/>
+        <colspec colname="possible-cause"/>
+        <colspec colname="action"/>
+        <thead>
+          <row>
+            <entry>Issue</entry>
+            <entry>Possible cause</entry>
+            <entry>Action</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Unable to log in</entry>
+            <entry>Incorrect credentials or account issue</entry>
+            <entry>Verify your credentials. If the problem continues, contact your system administrator.</entry>
+          </row>
+          <row>
+            <entry>Patient information is not displayed</entry>
+            <entry>Insufficient access or incorrect patient selection</entry>
+            <entry>Confirm that you selected the correct patient and that your role has permission to view the record.</entry>
+          </row>
+          <row>
+            <entry>Appointment search returns no results</entry>
+            <entry>Search criteria do not match an appointment</entry>
+            <entry>Review the search criteria and try again.</entry>
+          </row>
+          <row>
+            <entry>Message cannot be sent</entry>
+            <entry>Required information is missing or the recipient is invalid</entry>
+            <entry>Review the message fields and verify the selected patient or recipient.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <section>
+      <title>Security and privacy</title>
+      <p>Access patient information only when you are authorized to do so. Follow your organization's policies for protecting patient information, passwords, and messages.</p>
+    </section>
+  </refbody>
+</reference>

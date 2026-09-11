@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalGlossaryCache
+  SavedSource="file:///C:/Users/sunil/Downloads/IT_Help_Desk_Portal_MadCap_Flare_Project/topics/NewProject/Output/sunil/Temporary/GlobalGlossarySet v.2.xml">
+  <Map>
+    <GlossaryCacheEntry
+      Term="SLA"
+      glossTerm="Glossary.Term0"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="">Service-level agreement that defines expected response or resolution times.</Definition>
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="Ticket"
+      glossTerm="Glossary.Term1"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="">A support request submitted through the IT Help Desk Portal.</Definition>
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="Priority"
+      glossTerm="Glossary.Term2"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="">The level of urgency assigned to a support ticket.</Definition>
+    </GlossaryCacheEntry>
+  </Map>
+  <SourceUrls />
+</CatapultGlobalGlossaryCache>

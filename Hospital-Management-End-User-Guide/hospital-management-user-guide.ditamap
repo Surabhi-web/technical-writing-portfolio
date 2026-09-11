@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="hospital-management-user-guide">
+  <title>Hospital Management System — End-User Guide</title>
+  <topicmeta>
+    <author>Technical Writing Portfolio Sample</author>
+    <shortdesc>Task-based end-user documentation for a hospital management system.</shortdesc>
+  </topicmeta>
+
+  <topicref href="topics/overview.dita" navtitle="Hospital Management System"/>
+  <topicref href="topics/log-in.dita" navtitle="Log in to the Hospital Management System"/>
+  <topicref href="topics/understand-dashboard.dita" navtitle="Understand the Dashboard"/>
+  <topicref href="topics/view-patient-information.dita" navtitle="View Patient Information"/>
+  <topicref href="topics/view-and-search-appointments.dita" navtitle="View and Search Appointments"/>
+  <topicref href="topics/read-and-send-messages.dita" navtitle="Read and Send Messages"/>
+  <topicref href="topics/troubleshooting.dita" navtitle="Troubleshooting"/>
+</map>

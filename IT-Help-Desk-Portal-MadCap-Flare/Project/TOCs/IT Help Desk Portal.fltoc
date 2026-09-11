@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="IT Help Desk Portal"
+    Link="/Content/topics/overview.htm" />
+  <TocEntry
+    Title="Getting Started">
+    <TocEntry
+      Title="System Requirements"
+      Link="/Content/topics/system-requirements.htm" />
+    <TocEntry
+      Title="Sign in"
+      Link="/Content/topics/sign-in.htm"></TocEntry>
+    <TocEntry
+      Title="Understand the Dashboard"
+      Link="/Content/topics/dashboard.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Submit a Support Ticket">
+    <TocEntry
+      Title="Create a Support Ticket"
+      Link="/Content/topics/create-ticket.htm" />
+    <TocEntry
+      Title="Track a Ticket"
+      Link="/Content/topics/track-ticket.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Knowledge Base"
+    Link="/Content/topics/knowledge-base.htm" />
+  <TocEntry
+    Title="Troubleshooting"
+    Link="/Content/topics/troubleshooting.htm" />
+</CatapultToc>

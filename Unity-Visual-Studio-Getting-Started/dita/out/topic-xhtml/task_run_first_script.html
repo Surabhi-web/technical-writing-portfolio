@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2026" />
+<meta name="DC.rights.owner" content="(C) Copyright 2026" />
+<meta name="generator" content="DITA-OT" /><meta name="DC.type" content="task" />
+<meta name="DC.title" content="Running Your First Script" />
+<meta name="abstract" content="Create a simple C# script, attach it to a GameObject, and confirm it runs inside the Unity Editor." />
+<meta name="description" content="Create a simple C# script, attach it to a GameObject, and confirm it runs inside the Unity Editor." />
+<meta name="DC.format" content="XHTML" />
+<meta name="DC.identifier" content="task_run_first_script" />
+<link rel="stylesheet" type="text/css" href="commonltr.css" />
+<title>Running Your First Script</title>
+</head>
+<body id="task_run_first_script">
+
+  <h1 class="title topictitle1" id="ariaid-title1">Running Your First Script</h1>
+
+  
+  <div class="body taskbody"><p class="shortdesc">Create a simple C# script, attach it to a GameObject, and confirm it runs inside the
+    Unity Editor.</p>
+
+    <div class="section prereq p">
+      <p class="p">Complete <a class="xref" href="task_install_unity.html" title="Install Unity Hub, install the Unity Editor, and configure Visual Studio as your default script editor so you can write and debug C# scripts from within Unity.">Installing Unity and
+        Connecting It to Visual Studio</a> before starting this task.</p>
+
+    </div>
+
+    <ol class="ol steps"><li class="li step stepexpand">
+        <span class="ph cmd">In the Unity Project window, right-click and select <span class="ph uicontrol">Create &gt; C#
+          Script</span>.</span>
+        <div class="itemgroup info">Name the script <span class="ph filepath">PlayerGreeting.cs</span>.<div class="fig fignone" id="task_run_first_script__fig_hqm_ygt_nkc">
+            <img class="image" id="task_run_first_script__image_gxq_2ht_nkc" src="images/Screenshot%202026-09-11%20115447.png" />
+          </div>
+</div>
+      </li>
+<li class="li step stepexpand">
+        <span class="ph cmd">Double-click the script to open it in Visual Studio.</span>
+      </li>
+<li class="li step stepexpand">
+        <span class="ph cmd">Replace the default <code class="ph codeph">Start()</code> method with a line that logs a
+          message, then save the file.</span>
+        <div class="itemgroup info">Example: <code class="ph codeph">Debug.Log("Hello from Unity!");</code><div class="fig fignone" id="task_run_first_script__fig_uv1_ght_nkc">
+            <img class="image" id="task_run_first_script__image_p3d_hht_nkc" src="images/Screenshot%202026-09-11%20115544.png" />
+          </div>
+</div>
+      </li>
+<li class="li step stepexpand">
+        <span class="ph cmd">Drag the script from the Project window onto any GameObject in the Hierarchy
+          window.</span>
+        <div class="itemgroup stepresult">The script now appears as a component on that GameObject.<div class="fig fignone" id="task_run_first_script__fig_avx_3ht_nkc">
+            <img class="image" id="task_run_first_script__image_kpt_jht_nkc" src="images/Screenshot%202026-09-11%20115625.png" />
+          </div>
+</div>
+      </li>
+<li class="li step stepexpand">
+        <span class="ph cmd">Select <span class="ph uicontrol">Play</span> in the Unity toolbar.</span>
+        <div class="itemgroup stepresult">The message appears in the Unity Console window, confirming the script executed
+            successfully.<div class="fig fignone" id="task_run_first_script__fig_xfv_lht_nkc">
+            <img class="image" id="task_run_first_script__image_lkn_mht_nkc" src="images/Screenshot%202026-09-11%20115837.png" />
+          </div>
+</div>
+      </li>
+</ol>
+
+    <div class="section result">
+      <p class="p">You have confirmed that Unity and Visual Studio are correctly linked and that scripts
+        written in Visual Studio run as expected inside the Unity Editor.</p>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

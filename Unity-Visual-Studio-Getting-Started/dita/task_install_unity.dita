@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_install_unity">
+  <title>Installing Unity and Connecting It to Visual Studio</title>
+  <shortdesc>Install Unity Hub, install the Unity Editor, and configure Visual Studio as your
+    default script editor so you can write and debug C# scripts from within Unity.</shortdesc>
+  <taskbody>
+    <prereq>
+      <p conref="concept_system_requirements.dita#concept_system_requirements/p_min_requirements"/>
+      <note conref="concept_system_requirements.dita#concept_system_requirements/note_admin_rights"/>
+      <ul>
+        <li>Visual Studio 2022 (Community edition or higher)</li>
+        <li>An active internet connection for the initial download</li>
+      </ul>
+    </prereq>
+    <context>
+      <p>Unity Hub manages your Unity Editor versions and projects. You install Unity Hub first,
+        then use it to install a specific Editor version.</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Go to the Unity Personal page and select <uicontrol>Get started</uicontrol> or
+          <uicontrol>Download Unity</uicontrol>.</cmd>
+        <stepxmp>
+          <image href="images/download_unity_hub.png" placement="break">
+            <alt>Unity Personal product page showing the Get started and Download Unity
+              buttons.</alt>
+          </image>
+        </stepxmp>
+      </step>
+      <step>
+        <cmd>Sign in with a Unity ID, or create a free one if you do not already have one.</cmd>
+        <info>A Unity ID is required to activate a license. Continue with Google, Apple, SSO,
+          or email.</info>
+        <stepxmp>
+          <image href="images/create_unity_id.png" placement="break">
+            <alt>Unity account creation screen with Continue with Google, Apple, SSO, and Email
+              options.</alt>
+          </image>
+        </stepxmp>
+      </step>
+      <step>
+        <cmd>Confirm your operating system and download Unity Hub.</cmd>
+        <info>Unity detects your OS automatically (Windows, in this example) and the download
+          starts right away. If it does not start automatically, select your OS and
+          architecture manually.</info>
+        <stepxmp>
+          <image href="images/select_os_download.png" placement="break">
+            <alt>Post-download onboarding page with Windows detected and Open, Install, Launch
+              steps listed.</alt>
+          </image>
+        </stepxmp>
+      </step>
+      <step>
+        <cmd>Run the downloaded installer.</cmd>
+        <info>On Windows, this opens the Unity Hub Setup wizard. Confirm or browse to a
+          destination folder, check that enough disk space is available, and select
+          <uicontrol>Install</uicontrol>.</info>
+        <stepxmp>
+          <image href="images/installer_wizard.png" placement="break">
+            <alt>Unity Hub Setup wizard showing the Choose Install Location screen.</alt>
+          </image>
+        </stepxmp>
+      </step>
+      <step>
+        <cmd>In Unity Hub, select <uicontrol>Installs &gt; Install Editor</uicontrol>.</cmd>
+        <info>Select the latest LTS (Long-Term Support) version unless your project specifies
+          a different version.</info>
+      </step>
+      <step>
+        <cmd>In the module selection screen, enable <uicontrol>Microsoft Visual Studio
+          Community</uicontrol> if it is not already installed, or enable <uicontrol>Visual
+          Studio Editor</uicontrol> if Visual Studio is already present.</cmd>
+        <stepresult>The Unity Editor and the selected modules begin downloading.</stepresult>
+      </step>
+      <step>
+        <cmd>Once installation completes, open Unity Hub and select <uicontrol>New
+          Project</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>Choose a template, name the project, and select <uicontrol>Create
+          Project</uicontrol>.</cmd>
+        <stepresult>Unity creates the project and opens the Editor.</stepresult>
+      </step>
+      <step>
+        <cmd>In Unity, go to <uicontrol>Edit &gt; Preferences &gt; External Tools</uicontrol>
+          and confirm the <uicontrol>External Script Editor</uicontrol> field is set to Visual
+          Studio.</cmd>
+        <info>If it is not set automatically, select Visual Studio from the dropdown list.</info>
+      </step>
+      <step>
+        <cmd>Double-click any <filepath>.cs</filepath> script in the Project window to confirm
+          it opens directly in Visual Studio with Unity's C# project references loaded.</cmd>
+        <stepresult>Visual Studio opens with IntelliSense recognizing Unity API classes such as
+          <codeph>MonoBehaviour</codeph>, confirming the two applications are correctly
+          linked.</stepresult>
+      </step>
+    </steps>
+    <result>
+      <p>Unity and Visual Studio are now installed and connected. You can write, save, and run C#
+        scripts in Visual Studio and see the results reflected immediately in the Unity
+        Editor.</p>
+    </result>
+    <postreq>
+      <p>See <xref href="task_run_first_script.dita" format="dita">Running Your First Script</xref>
+        to test the connection end-to-end.</p>
+    </postreq>
+  </taskbody>
+</task>

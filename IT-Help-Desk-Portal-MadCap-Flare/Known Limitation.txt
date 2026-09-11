@@ -1,0 +1,1 @@
+Generated HTML output may contain minor rendering or text-display issues caused by the MadCap Flare trial version. These do not reflect errors in the source documentation

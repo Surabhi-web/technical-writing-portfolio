@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="log-in">
+  <title>Log in to the Hospital Management System</title>
+  <shortdesc>Use your assigned credentials to sign in to the system.</shortdesc>
+  <taskbody>
+    <prereq>You must have a valid username and password provided by your organization.</prereq>
+    <steps>
+      <step>
+        <cmd>Open the Hospital Management System login page.</cmd>
+        <info>The login page displays fields for your username and password.<fig
+            id="fig_bpd_spt_nkc">
+            <image href="../screenshots/login_cropped.png" id="image_bgv_tpt_nkc" width="600"/>
+          </fig></info>
+      </step>
+      <step>
+        <cmd>Enter your username in the Username field.</cmd>
+      </step>
+      <step>
+        <cmd>Enter your password in the Password field.</cmd>
+      </step>
+      <step>
+        <cmd>Select the <uicontrol>Login</uicontrol> button.</cmd>
+      </step>
+    </steps>
+    <result>The system opens the main dashboard.</result>
+  </taskbody>
+</task>

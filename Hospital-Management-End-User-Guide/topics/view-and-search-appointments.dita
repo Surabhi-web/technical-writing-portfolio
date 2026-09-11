@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="view-and-search-appointments">
+  <title>View and Search Appointments</title>
+  <shortdesc>Review future appointments and use the appointment search screen to locate an appointment.</shortdesc>
+  <taskbody>
+    <context>Use the appointment area to review scheduled appointments and narrow the list when you need to find a specific appointment.</context>
+    <steps>
+      <step>
+        <cmd>Open the appointments area.<image href="../screenshots/appointments_cropped.png"
+            id="image_p1g_qc5_nkc" width="600"/></cmd>
+      </step>
+      <step>
+        <cmd>Review the listed appointments.</cmd>
+      </step>
+      <step>
+        <cmd>Open the appointment search function when you need to locate a specific
+            appointment.<image href="../screenshots/appointment_search_cropped.png"
+            id="image_lcp_dd5_nkc" width="600"/></cmd>
+      </step>
+      <step>
+        <cmd>Enter the available search criteria and run the search.</cmd>
+      </step>
+    </steps>
+    <result>The system displays appointments that match the search criteria.</result>
+  </taskbody>
+</task>

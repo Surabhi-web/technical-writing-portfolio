@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry
+    glossTerm="Glossary.Term0"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>SLA</Term>
+    </Terms>
+    <Definition
+      Link="">Service-level agreement that defines expected response or resolution times.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term1"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Ticket</Term>
+    </Terms>
+    <Definition
+      Link="">A support request submitted through the IT Help Desk Portal.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term2"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Priority</Term>
+    </Terms>
+    <Definition
+      Link="">The level of urgency assigned to a support ticket.</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

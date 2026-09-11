@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1">
+    <TocEntry Title="create-ticket" Link="/Content/topics/create-ticket.htm" />
+    <TocEntry Title="dashboard" Link="/Content/topics/dashboard.htm" />
+    <TocEntry Title="knowledge-base" Link="/Content/topics/knowledge-base.htm" />
+    <TocEntry Title="overview" Link="/Content/topics/overview.htm" />
+    <TocEntry Title="sign-in" Link="/Content/topics/sign-in.htm" />
+    <TocEntry Title="system-requirements" Link="/Content/topics/system-requirements.htm" />
+    <TocEntry Title="track-ticket" Link="/Content/topics/track-ticket.htm" />
+    <TocEntry Title="troubleshooting" Link="/Content/topics/troubleshooting.htm" />
+</CatapultToc>

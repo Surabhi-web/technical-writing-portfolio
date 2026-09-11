@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="SupportEmail"
+    EvaluatedDefinition="support@example.com">support@example.com</Variable>
+  <Variable
+    Comment=""
+    Name="ProductName"
+    EvaluatedDefinition="IT Help Desk Portal">IT Help Desk Portal</Variable>
+  <Variable
+    Name="CompanyName"
+    Comment=""
+    EvaluatedDefinition="Acme Technologies">Acme Technologies</Variable>
+</CatapultVariableSet>

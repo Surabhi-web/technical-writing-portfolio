@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HtmlImport
+  AutoSync="true"
+  ImportResources="true"
+  ImportResourcesLocation="ProjectResourcesFolder"
+  KeepSourceLinks="true"
+  SourceFolders=""
+  ImportTopics="content"
+  ImportLinkedHtmlFiles="true"
+  ResourceFolder="file:///C:/Users/sunil/Downloads/IT_Help_Desk_Portal_MadCap_Flare_Project/topics/NewProject/Content/Resources/"
+  LastImport="2026-09-11T17:55:15.2433960+05:30"
+  ImportTopicsLocation="Content/">
+  <Files>
+    <Url
+      Source="../../../create-ticket.htm"
+      AbsoluteSource="file:///C:/Users/sunil/Downloads/IT_Help_Desk_Portal_MadCap_Flare_Project/topics/create-ticket.htm" />
+    <Url
+      Source="../../../dashboard.htm"
+      AbsoluteSource="file:///C:/Users/sunil/Downloads/IT_Help_Desk_Portal_MadCap_Flare_Project/topics/dashboard.htm" />
+    <Url
+      Source="../../../knowledge-base.htm"
+      AbsoluteSource="file:///C:/Users/sunil/Downloads/IT_Help_Desk_Portal_MadCap_Flare_Project/topics/knowledge-base.htm" />
+    <Url
+      Source="../../../overview.htm"
+      AbsoluteSource="file:///C:/Users/sunil/Downloads/IT_Help_Desk_Portal_MadCap_Flare_Project/topics/overview.htm" />
+    <Url
+      Source="../../../sign-in.htm"
+      AbsoluteSource="file:///C:/Users/sunil/Downloads/IT_Help_Desk_Portal_MadCap_Flare_Project/topics/sign-in.htm" />
+    <Url
+      Source="../../../system-requirements.htm"
+      AbsoluteSource="file:///C:/Users/sunil/Downloads/IT_Help_Desk_Portal_MadCap_Flare_Project/topics/system-requirements.htm" />
+    <Url
+      Source="../../../track-ticket.htm"
+      AbsoluteSource="file:///C:/Users/sunil/Downloads/IT_Help_Desk_Portal_MadCap_Flare_Project/topics/track-ticket.htm" />
+    <Url
+      Source="../../../troubleshooting.htm"
+      AbsoluteSource="file:///C:/Users/sunil/Downloads/IT_Help_Desk_Portal_MadCap_Flare_Project/topics/troubleshooting.htm" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/topics/create-ticket.htm"
+      TimeStamp="11-09-2026 17:55:14" />
+    <Url
+      Source="../../Content/topics/dashboard.htm"
+      TimeStamp="11-09-2026 17:55:14" />
+    <Url
+      Source="../../Content/topics/knowledge-base.htm"
+      TimeStamp="11-09-2026 17:55:14" />
+    <Url
+      Source="../../Content/topics/overview.htm"
+      TimeStamp="11-09-2026 17:55:14" />
+    <Url
+      Source="../../Content/topics/sign-in.htm"
+      TimeStamp="11-09-2026 17:55:14" />
+    <Url
+      Source="../../Content/topics/system-requirements.htm"
+      TimeStamp="11-09-2026 17:55:14" />
+    <Url
+      Source="../../Content/topics/track-ticket.htm"
+      TimeStamp="11-09-2026 17:55:15" />
+    <Url
+      Source="../../Content/topics/troubleshooting.htm"
+      TimeStamp="11-09-2026 17:55:15" />
+    <Url
+      Source="../TOCs/create-ticket.fltoc"
+      TimeStamp="11-09-2026 17:55:15" />
+    <Url
+      Source="../../Content/Resources/Images/new-ticket.png"
+      TimeStamp="11-09-2026 15:59:11" />
+    <Url
+      Source="../../Content/Resources/StyleSheets/it-helpdesk.css"
+      TimeStamp="11-09-2026 17:55:15" />
+    <Url
+      Source="../../Content/Resources/Images/dashboard.png"
+      TimeStamp="11-09-2026 15:59:11" />
+    <Url
+      Source="../../Content/Resources/Images/knowledge-base.png"
+      TimeStamp="11-09-2026 15:59:11" />
+    <Url
+      Source="../../Content/Resources/Images/ticket-status.png"
+      TimeStamp="11-09-2026 15:59:11" />
+  </GeneratedFiles>
+</HtmlImport>
