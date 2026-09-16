@@ -1,5 +1,10 @@
 # Technical Writing Portfolio
 
+## About
+I'm a technical writer who builds task-based, user-focused documentation. These are self-initiated projects — I designed and wrote each one from scratch to practice structuring documentation for different tools and audiences. Not client work — built to demonstrate range across DITA XML, MadCap Flare, and plain HTML/CSS.
+
+📧 surabhikulkarni311@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/surabhi-bhosekar-808b37a9)
+
 A collection of technical writing and documentation samples showcasing task-based, user-focused content across healthcare, IT support, and software onboarding domains — built using DITA XML, MadCap Flare, and HTML/CSS.
 
 🔗 **Live portfolio:** [surabhi-web.github.io/technical-writing-portfolio](https://surabhi-web.github.io/technical-writing-portfolio/)
