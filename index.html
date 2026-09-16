@@ -1,145 +1,198 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Patient Admission and Discharge Procedure</title>
-  <link rel="stylesheet" type="text/css" href="hospital-topic.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surabhi Bhosekar — Technical Writing Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #FAF8F4;
+    --ink: #1E1B16;
+    --muted: #6B6558;
+    --accent: #3D6A5C;
+    --line: #D8D2C4;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, sans-serif;
+    line-height: 1.6;
+    font-size: 17px;
+  }
+
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 80px 24px 100px;
+  }
+
+  header {
+    margin-bottom: 64px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 40px;
+  }
+
+  .role {
+    color: var(--accent);
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 12px;
+  }
+
+  h1 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.15;
+    margin: 0 0 20px;
+    max-width: 14ch;
+  }
+
+  .intro {
+    color: var(--muted);
+    font-size: 17px;
+    max-width: 58ch;
+    margin: 0;
+  }
+
+  .section-label {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 15px;
+    color: var(--muted);
+    margin: 0 0 28px;
+  }
+
+  .entry {
+    display: grid;
+    grid-template-columns: 32px 1fr;
+    gap: 4px 20px;
+    padding: 32px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .entry:first-of-type { padding-top: 0; }
+
+  .num {
+    font-family: 'Source Serif 4', Georgia, serif;
+    color: var(--accent);
+    font-size: 18px;
+    padding-top: 2px;
+  }
+
+  .entry h2 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0 0 8px;
+    line-height: 1.3;
+  }
+
+  .meta {
+    color: var(--muted);
+    font-size: 14px;
+    margin: 0 0 12px;
+  }
+
+  .meta span:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    width: 4px; height: 4px;
+    border-radius: 50%;
+    background: var(--line);
+    margin: 0 10px 2px;
+  }
+
+  .desc {
+    margin: 0 0 16px;
+    max-width: 56ch;
+  }
+
+  .open {
+    display: inline-flex;
+    align-items: center;
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+
+  .open:hover { color: var(--accent); }
+
+  footer {
+    margin-top: 64px;
+    padding-top: 32px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  footer .skills {
+    color: var(--ink);
+    margin-top: 8px;
+  }
+
+  @media (max-width: 480px) {
+    .wrap { padding: 48px 20px 72px; }
+    h1 { font-size: 32px; }
+    .entry { grid-template-columns: 24px 1fr; gap: 4px 14px; }
+  }
+</style>
 </head>
 <body>
-  <header class="topic-header">
-    <div class="eyebrow">PATIENT SERVICES • STANDARD OPERATING PROCEDURE</div>
-    <h1>Patient Admission and Discharge Procedure</h1>
-    <p class="lead">A step-by-step guide for hospital staff to complete patient admission, update records, coordinate discharge, and provide follow-up instructions.</p>
+<div class="wrap">
+
+  <header>
+    <p class="role">Surabhi Bhosekar · Technical Writing &amp; Instructional Design</p>
+    <h1>Documentation that gets people unstuck</h1>
+    <p class="intro">Three samples of task-based, end-user documentation — a hospital system guide built in DITA XML, an IT help desk portal built in MadCap Flare, and a beginner's getting-started guide for Unity and Visual Studio.</p>
   </header>
 
-  <div class="info-grid">
-    <div class="info-card">
-      <span class="label">Audience</span>
-      <strong>Front-desk and ward staff</strong>
-    </div>
-    <div class="info-card">
-      <span class="label">Document type</span>
-      <strong>Staff procedure</strong>
-    </div>
-    <div class="info-card">
-      <span class="label">Estimated time</span>
-      <strong>10–15 minutes</strong>
+  <p class="section-label">Projects</p>
+
+  <div class="entry">
+    <span class="num">01</span>
+    <div>
+      <h2>Hospital Management System — End-User Guide</h2>
+      <p class="meta"><span>DITA XML</span><span>Front-desk &amp; ward staff</span></p>
+      <p class="desc">Step-by-step task documentation covering login, the dashboard, patient information, appointments, messaging, and the patient admission-and-discharge procedure — written to remove ambiguity for staff using the system day to day.</p>
+      <a class="open" href="hospital-admission-discharge.html">Open the guide</a>
     </div>
   </div>
 
-  <div class="callout note">
-    <strong>Important:</strong> Follow the hospital's current clinical, privacy, identification, and emergency-response policies. This topic describes an administrative workflow and does not replace clinical instructions.
+  <div class="entry">
+    <span class="num">02</span>
+    <div>
+      <h2>IT Help Desk Portal</h2>
+      <p class="meta"><span>MadCap Flare</span><span>Employees requesting IT support</span></p>
+      <p class="desc">A self-service support portal: signing in, reading the dashboard, creating and tracking a ticket, checking system requirements, and troubleshooting — built so employees can solve issues without waiting on IT.</p>
+      <a class="open" href="IT-Help-Desk-Portal-MadCap-Flare/Content/topics/overview.htm">Open the portal</a>
+    </div>
   </div>
 
-  <h2>1. Before You Begin</h2>
-  <p>Confirm that the admission request has been received and that the patient can be safely registered through the standard admission workflow.</p>
-  <ul>
-    <li>Verify that the required admission request or referral is available.</li>
-    <li>Prepare the registration system and required forms.</li>
-    <li>Have the hospital-approved patient identification method ready.</li>
-    <li>Confirm the destination ward, room, or department.</li>
-  </ul>
-
-  <h2>2. Admit the Patient</h2>
-  <ol class="steps">
-    <li><strong>Verify identity.</strong> Ask the patient to provide the required identifiers and compare them with the available registration information.</li>
-    <li><strong>Open or locate the patient record.</strong> Search for an existing record before creating a new one to reduce duplicate records.</li>
-    <li><strong>Confirm demographic information.</strong> Check the patient's name, date of birth, contact information, and other required fields.</li>
-    <li><strong>Record admission details.</strong> Enter the admission date and time, admitting department, attending service, and other required administrative information.</li>
-    <li><strong>Confirm payment or coverage information.</strong> Complete the hospital-approved insurance or billing workflow, when applicable.</li>
-    <li><strong>Assign the destination.</strong> Record the assigned ward, room, or department according to hospital procedure.</li>
-    <li><strong>Confirm completion.</strong> Review the record for missing or inconsistent information before finalising the admission.</li>
-  </ol>
-
-  <div class="callout tip">
-    <strong>Tip:</strong> Search for an existing patient record using more than one approved identifier when the system supports it. Avoid creating a duplicate record simply because a search returns no immediate match.
+  <div class="entry">
+    <span class="num">03</span>
+    <div>
+      <h2>Unity + Visual Studio — Getting Started</h2>
+      <p class="meta"><span>HTML/CSS</span><span>Beginners, first-time setup</span></p>
+      <p class="desc">A getting-started guide for setting up a Unity and Visual Studio development environment for the first time, written in plain language for someone with no prior setup experience.</p>
+      <a class="open" href="Unity-Visual-Studio-Getting-Started/index.html">Open the guide</a>
+    </div>
   </div>
-
-  <h2>3. During the Patient Stay</h2>
-  <p>Keep administrative information accurate throughout the patient's stay.</p>
-  <div class="table-wrap">
-    <table>
-      <thead>
-        <tr><th>Task</th><th>When to perform it</th><th>Expected result</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Update contact details</td><td>When information changes</td><td>Patient record reflects current information</td></tr>
-        <tr><td>Update location</td><td>When the patient changes ward or room</td><td>Current destination is recorded</td></tr>
-        <tr><td>Review administrative fields</td><td>Before discharge</td><td>Required fields are complete</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <h2>4. Prepare for Discharge</h2>
-  <p>Discharge should be initiated only after the appropriate authorised staff have confirmed that the patient is ready for discharge.</p>
-  <ol class="steps">
-    <li>Confirm the discharge order or authorised discharge instruction.</li>
-    <li>Check that required administrative documentation is complete.</li>
-    <li>Confirm outstanding billing, insurance, or payment steps, if applicable.</li>
-    <li>Verify that discharge documents are available for the patient.</li>
-    <li>Confirm the patient's destination and contact information when required.</li>
-  </ol>
-
-  <h2>5. Complete the Discharge</h2>
-  <ol class="steps">
-    <li><strong>Review the discharge record.</strong> Confirm the discharge date, time, destination, and required administrative information.</li>
-    <li><strong>Provide approved documents.</strong> Give the patient the documents and instructions authorised by the care team.</li>
-    <li><strong>Explain next steps.</strong> Direct the patient to the appropriate information about appointments, follow-up services, or contacts.</li>
-    <li><strong>Update the system.</strong> Complete the discharge status and close the administrative workflow according to hospital policy.</li>
-    <li><strong>Secure patient information.</strong> Handle printed and electronic records according to privacy and information-security requirements.</li>
-  </ol>
-
-  <div class="callout warning">
-    <strong>Do not proceed:</strong> If required information is missing, the patient's identity cannot be confirmed, or an authorised discharge instruction is unavailable. Escalate the issue to the appropriate hospital staff member.
-  </div>
-
-  <h2>6. Troubleshooting</h2>
-  <table class="troubleshooting">
-    <thead>
-      <tr><th>Issue</th><th>What to do</th></tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Possible duplicate patient record</td>
-        <td>Stop the registration process and follow the hospital's duplicate-record procedure. Do not create another record unless authorised.</td>
-      </tr>
-      <tr>
-        <td>Required field is missing</td>
-        <td>Check the source documentation. If the information cannot be confirmed, contact the responsible staff member.</td>
-      </tr>
-      <tr>
-        <td>Discharge status cannot be completed</td>
-        <td>Verify that the required authorisation and administrative steps are complete, then escalate if the system still prevents completion.</td>
-      </tr>
-      <tr>
-        <td>Patient information appears incorrect</td>
-        <td>Do not overwrite information without verification. Follow the approved correction process.</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h2>7. Completion Checklist</h2>
-  <div class="checklist">
-    <label><input type="checkbox" /> Patient identity verified</label>
-    <label><input type="checkbox" /> Existing record checked before registration</label>
-    <label><input type="checkbox" /> Required admission information completed</label>
-    <label><input type="checkbox" /> Ward or department recorded</label>
-    <label><input type="checkbox" /> Discharge authorisation confirmed</label>
-    <label><input type="checkbox" /> Required discharge documents provided</label>
-    <label><input type="checkbox" /> Patient record updated and workflow completed</label>
-  </div>
-
-  <h2>Related Topics</h2>
-  <ul class="related">
-    <li>Patient Identification and Registration</li>
-    <li>Updating Patient Demographic Information</li>
-    <li>Hospital Privacy and Information Security</li>
-    <li>Discharge Documentation Guidelines</li>
-  </ul>
 
   <footer>
-    <span>Hospital Operations Documentation</span>
-    <span>Version 1.0 • September 2026</span>
+    <p>Tools &amp; skills demonstrated</p>
+    <p class="skills">DITA XML · MadCap Flare · Information Architecture · Task-Based Writing · HTML/CSS · End-User Documentation</p>
   </footer>
+
+</div>
 </body>
 </html>
