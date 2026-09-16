@@ -48,4 +48,8 @@ A collection of technical writing and documentation samples showcasing task-base
 ---
 
 ## 🛠️ Tools & Skills Demonstrated
+<<<<<<< HEAD
 DITA XML · MadCap Flare · Information Architecture · Task-Based Writing · HTML/CSS · Topic-Based Authoring · End-User Documentation
+=======
+DITA XML · MadCap Flare · Information Architecture · Task-Based Writing · HTML/CSS · Topic-Based Authoring · End-User Documentation
+>>>>>>> 0b6c89dfbe9e9d521e6408de59c3a0b23d574e5c
