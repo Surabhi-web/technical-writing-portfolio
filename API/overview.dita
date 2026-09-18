@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="overview">
+  <title>SentinelGate AI Security Gateway</title>
+  <conbody>
+    <p>SentinelGate is a fictional enterprise platform created for this portfolio project to demonstrate product, administrator, and API documentation for an AI-security product.</p>
+    <p>The gateway sits between an application and an AI provider. It applies configurable security policies, routes requests, and records security events for operational review.</p>
+    <section id="audience">
+      <title>Audience</title>
+      <p>This documentation is intended for application developers, platform administrators, product teams, and support engineers.</p>
+    </section>
+    <section id="scope">
+      <title>Documentation scope</title>
+      <ul>
+        <li>Gateway configuration</li>
+        <li>Administrator workflows</li>
+        <li>API usage</li>
+        <li>Configuration references</li>
+        <li>Release notes and troubleshooting</li>
+      </ul>
+    </section>
+  </conbody>
+</concept>

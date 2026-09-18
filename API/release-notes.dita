@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="release-notes">
+  <title>Release Notes: Version 1.2</title>
+  <refbody>
+    <section id="new-features">
+      <title>New features</title>
+      <ul><li>Added sensitive-data detection policies.</li><li>Added metadata-only security logging.</li><li>Added API response identifiers.</li></ul>
+    </section>
+    <section id="improvements">
+      <title>Improvements</title>
+      <ul><li>Improved gateway configuration validation.</li><li>Improved error messages for invalid API requests.</li></ul>
+    </section>
+    <section id="breaking-changes">
+      <title>Breaking changes</title>
+      <p>None.</p>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="quickstart">
+  <title>Quickstart: Configure a Gateway</title>
+  <taskbody>
+    <context>
+      <p>Use this procedure to configure a development gateway and send a test request.</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Sign in to SentinelGate.</cmd>
+      </step>
+      <step>
+        <cmd>Open <uicontrol>AI Gateways</uicontrol> and select <uicontrol>Create gateway</uicontrol>.</cmd>
+        <info>Use a unique name that identifies the application or environment.</info>
+      </step>
+      <step>
+        <cmd>Enter the AI provider endpoint and select the authentication method.</cmd>
+      </step>
+      <step>
+        <cmd>Select <uicontrol>Save</uicontrol>.</cmd>
+        <info>Confirm that the gateway status changes to <uicontrol>Connected</uicontrol>.</info>
+      </step>
+      <step>
+        <cmd>Create an API key with the <uicontrol>Gateway invoke</uicontrol> scope.</cmd>
+      </step>
+      <step>
+        <cmd>Send a test request using the API Reference.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>The gateway is ready to accept test requests.</p>
+    </result>
+    <example>
+      <title>Verify the configuration</title>
+      <p>Confirm that the gateway returns an HTTP 200 response. If the request is blocked, review
+        the security policy and event log.<fig id="fig_nf5_kzt_pkc">
+          <image href="images/gateway-config.png" id="image_e4t_wzt_pkc" width="600"/>
+        </fig></p>
+    </example>
+  </taskbody>
+</task>

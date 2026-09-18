@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="troubleshooting">
+  <title>Troubleshooting</title>
+  <conbody>
+    <p>Use the following checks for common gateway and API issues.</p>
+    <section id="not-connected">
+      <title>Gateway shows Not connected</title>
+      <ul>
+        <li>Verify the provider endpoint.</li>
+        <li>Confirm that the API credential is valid.</li>
+        <li>Check outbound network access.</li>
+        <li>Review the event log for the failure reason.</li>
+      </ul>
+    </section>
+    <section id="unauthorized">
+      <title>API returns 401 Unauthorized</title>
+      <p>Verify that the API key is active and sent in the Authorization header.</p>
+    </section>
+    <section id="rate-limit">
+      <title>API returns 429 Too Many Requests</title>
+      <p>Reduce request frequency and use exponential backoff. Check configured rate limits before retrying.</p>
+    </section>
+  </conbody>
+</concept>

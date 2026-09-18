@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="admin-guide">
+  <title>Administrator Guide: Configure a Security Policy</title>
+  <taskbody>
+    <context>
+      <p>Security policies determine how SentinelGate evaluates requests before forwarding them to an AI provider.</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Open <uicontrol>Security Policies</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>Select <uicontrol>Create policy</uicontrol> or open an existing policy.</cmd>
+      </step>
+      <step>
+        <cmd>Enable the required security controls.</cmd>
+        <info>For this portfolio example, enable prompt-injection protection and sensitive-data detection.</info>
+      </step>
+      <step>
+        <cmd>Select the action for blocked requests.</cmd>
+        <info>A blocked request can return an error and create a security event.</info>
+      </step>
+      <step>
+        <cmd>Select <uicontrol>Save</uicontrol>.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>The policy is saved and available for assignment to a gateway.</p>
+    </result>
+    <example>
+      <title>Example policy</title>
+      <p>Use metadata-only logging when request content must not be retained.<fig
+          id="fig_xz2_l15_pkc">
+          <image href="images/security-policy.png" id="image_wqb_m15_pkc" width="600"/>
+        </fig></p>
+    </example>
+  </taskbody>
+</task>

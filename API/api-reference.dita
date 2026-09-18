@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="api-reference">
+  <title>API Reference</title>
+  <refbody>
+    <section id="invoke">
+      <title>POST /v1/gateways/{gatewayId}/responses</title>
+      <p>Sends input to a configured gateway.</p>
+      <section id="authentication">
+        <title>Authentication</title>
+        <p>Send the API key in the <codeph>Authorization</codeph> header using the Bearer scheme.</p>
+      </section>
+      <section id="request">
+        <title>Request example</title>
+        <codeblock>POST /v1/gateways/gw_123/responses
+Authorization: Bearer &lt;API_KEY&gt;
+Content-Type: application/json
+
+{
+  "input": "Summarise the deployment steps."
+}</codeblock>
+      </section>
+      <section id="response">
+        <title>Response example</title>
+        <codeblock>HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "id": "resp_456",
+  "status": "completed",
+  "output": "The deployment requires..."
+}</codeblock>
+      </section>
+      <section id="responses">
+        <title>Common responses</title>
+        <table frame="all" rowsep="1" colsep="1">
+          <tgroup cols="3">
+            <thead><row><entry>Status</entry><entry>Meaning</entry><entry>Action</entry></row></thead>
+            <tbody>
+              <row><entry>400</entry><entry>Invalid request</entry><entry>Check required fields and JSON syntax.</entry></row>
+              <row><entry>401</entry><entry>Authentication failed</entry><entry>Check the API key.</entry></row>
+              <row><entry>429</entry><entry>Rate limit exceeded</entry><entry>Retry with backoff.</entry></row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,32 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta charset="UTF-8"><meta name="DC.rights.owner" content="(C) Copyright 2026"><meta name="copyright" content="(C) Copyright 2026"><meta name="generator" content="DITA-OT"><meta name="DC.type" content="task"><meta name="DC.format" content="HTML5"><meta name="DC.identifier" content="admin-guide"><title>Administrator Guide: Configure a Security Policy</title><link rel="stylesheet" type="text/css" href="commonltr.css"></head><body id="admin-guide"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <h1 class="title topictitle1" id="ariaid-title1">Administrator Guide: Configure a Security Policy</h1>
+  <div class="body taskbody">
+    <section class="section context">
+      <p class="p">Security policies determine how SentinelGate evaluates requests before forwarding them to an AI provider.</p>
+    </section>
+    <section><ol class="ol steps"><li class="li step stepexpand">
+        <span class="ph cmd">Open <span class="ph uicontrol">Security Policies</span>.</span>
+      </li><li class="li step stepexpand">
+        <span class="ph cmd">Select <span class="ph uicontrol">Create policy</span> or open an existing policy.</span>
+      </li><li class="li step stepexpand">
+        <span class="ph cmd">Enable the required security controls.</span>
+        <div class="itemgroup info">For this portfolio example, enable prompt-injection protection and sensitive-data detection.</div>
+      </li><li class="li step stepexpand">
+        <span class="ph cmd">Select the action for blocked requests.</span>
+        <div class="itemgroup info">A blocked request can return an error and create a security event.</div>
+      </li><li class="li step stepexpand">
+        <span class="ph cmd">Select <span class="ph uicontrol">Save</span>.</span>
+      </li></ol></section>
+    <section class="section result">
+      <p class="p">The policy is saved and available for assignment to a gateway.</p>
+    </section>
+    <section class="example"><h2 class="title sectiontitle">Example policy</h2>
+      
+      <div class="p">Use metadata-only logging when request content must not be retained.<figure class="fig fignone" id="admin-guide__fig_xz2_l15_pkc">
+          <img class="image" id="admin-guide__image_wqb_m15_pkc" src="images/security-policy.png" width="600">
+        </figure></div>
+    </section>
+  </div>
+</article></main></body></html>

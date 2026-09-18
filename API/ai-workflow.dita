@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ai-workflow">
+  <title>AI-Assisted Documentation Workflow</title>
+  <conbody>
+    <p>AI tools can accelerate drafting, terminology checks, restructuring, and maintenance. They should not be treated as the source of technical truth.</p>
+    <section id="workflow">
+      <title>Validation workflow</title>
+      <ol>
+        <li>Use product specifications, API definitions, schemas, or engineer-confirmed information as the source of truth.</li>
+        <li>Use an AI assistant to propose a draft or identify unclear areas.</li>
+        <li>Validate technical statements, code samples, parameters, defaults, and responses against the source.</li>
+        <li>Have an engineer or SME review high-risk technical content.</li>
+        <li>Run documentation QA for links, terminology, formatting, and consistency before publishing.</li>
+      </ol>
+    </section>
+    <note type="important">SentinelGate is fictional. This project demonstrates documentation technique and does not claim production experience with a real AI-security product.</note>
+  </conbody>
+</concept>

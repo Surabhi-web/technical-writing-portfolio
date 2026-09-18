@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="configuration-reference">
+  <title>Configuration Reference</title>
+  <refbody>
+    <section id="yaml">
+      <title>Gateway configuration</title>
+      <p>The following YAML illustrates a gateway configuration.</p>
+      <codeblock>gateway:
+  name: customer-support-gateway
+  provider:
+    endpoint: https://api.example-llm.com/v1
+  security:
+    promptInjection: true
+    sensitiveDataDetection: true
+  logging:
+    mode: metadata-only</codeblock>
+    </section>
+    <section id="parameters">
+      <title>Parameters</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="3">
+          <thead><row><entry>Parameter</entry><entry>Required</entry><entry>Description</entry></row></thead>
+          <tbody>
+            <row><entry>gateway.name</entry><entry>Yes</entry><entry>Unique gateway identifier.</entry></row>
+            <row><entry>gateway.provider.endpoint</entry><entry>Yes</entry><entry>AI provider base URL.</entry></row>
+            <row><entry>gateway.security.promptInjection</entry><entry>No</entry><entry>Enables prompt-injection checks.</entry></row>
+            <row><entry>gateway.security.sensitiveDataDetection</entry><entry>No</entry><entry>Enables sensitive-data checks.</entry></row>
+            <row><entry>gateway.logging.mode</entry><entry>No</entry><entry>Controls information retained in security logs.</entry></row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

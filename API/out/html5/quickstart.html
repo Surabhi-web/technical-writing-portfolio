@@ -1,0 +1,35 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta charset="UTF-8"><meta name="DC.rights.owner" content="(C) Copyright 2026"><meta name="copyright" content="(C) Copyright 2026"><meta name="generator" content="DITA-OT"><meta name="DC.type" content="task"><meta name="DC.format" content="HTML5"><meta name="DC.identifier" content="quickstart"><title>Quickstart: Configure a Gateway</title><link rel="stylesheet" type="text/css" href="commonltr.css"></head><body id="quickstart"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <h1 class="title topictitle1" id="ariaid-title1">Quickstart: Configure a Gateway</h1>
+  <div class="body taskbody">
+    <section class="section context">
+      <p class="p">Use this procedure to configure a development gateway and send a test request.</p>
+    </section>
+    <section><ol class="ol steps"><li class="li step stepexpand">
+        <span class="ph cmd">Sign in to SentinelGate.</span>
+      </li><li class="li step stepexpand">
+        <span class="ph cmd">Open <span class="ph uicontrol">AI Gateways</span> and select <span class="ph uicontrol">Create gateway</span>.</span>
+        <div class="itemgroup info">Use a unique name that identifies the application or environment.</div>
+      </li><li class="li step stepexpand">
+        <span class="ph cmd">Enter the AI provider endpoint and select the authentication method.</span>
+      </li><li class="li step stepexpand">
+        <span class="ph cmd">Select <span class="ph uicontrol">Save</span>.</span>
+        <div class="itemgroup info">Confirm that the gateway status changes to <span class="ph uicontrol">Connected</span>.</div>
+      </li><li class="li step stepexpand">
+        <span class="ph cmd">Create an API key with the <span class="ph uicontrol">Gateway invoke</span> scope.</span>
+      </li><li class="li step stepexpand">
+        <span class="ph cmd">Send a test request using the API Reference.</span>
+      </li></ol></section>
+    <section class="section result">
+      <p class="p">The gateway is ready to accept test requests.</p>
+    </section>
+    <section class="example"><h2 class="title sectiontitle">Verify the configuration</h2>
+      
+      <div class="p">Confirm that the gateway returns an HTTP 200 response. If the request is blocked, review
+        the security policy and event log.<figure class="fig fignone" id="quickstart__fig_nf5_kzt_pkc">
+          <img class="image" id="quickstart__image_e4t_wzt_pkc" src="images/gateway-config.png" width="600">
+        </figure></div>
+    </section>
+  </div>
+</article></main></body></html>

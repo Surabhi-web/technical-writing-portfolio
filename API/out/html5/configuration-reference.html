@@ -1,0 +1,30 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta charset="UTF-8"><meta name="DC.rights.owner" content="(C) Copyright 2026"><meta name="copyright" content="(C) Copyright 2026"><meta name="generator" content="DITA-OT"><meta name="DC.type" content="reference"><meta name="DC.format" content="HTML5"><meta name="DC.identifier" content="configuration-reference"><title>Configuration Reference</title><link rel="stylesheet" type="text/css" href="commonltr.css"></head><body id="configuration-reference"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <h1 class="title topictitle1" id="ariaid-title1">Configuration Reference</h1>
+  <div class="body refbody">
+    <section class="section" id="configuration-reference__yaml"><h2 class="title sectiontitle">Gateway configuration</h2>
+      
+      <p class="p">The following YAML illustrates a gateway configuration.</p>
+      <pre class="pre codeblock"><code>gateway:
+  name: customer-support-gateway
+  provider:
+    endpoint: https://api.example-llm.com/v1
+  security:
+    promptInjection: true
+    sensitiveDataDetection: true
+  logging:
+    mode: metadata-only</code></pre>
+    </section>
+    <section class="section" id="configuration-reference__parameters"><h2 class="title sectiontitle">Parameters</h2>
+      
+      <table class="table frame-all"><caption></caption><colgroup><col><col><col></colgroup><thead class="thead"><tr class="row"><th class="entry colsep-1 rowsep-1" id="configuration-reference__parameters__entry__1">Parameter</th><th class="entry colsep-1 rowsep-1" id="configuration-reference__parameters__entry__2">Required</th><th class="entry rowsep-1" id="configuration-reference__parameters__entry__3">Description</th></tr></thead><tbody class="tbody">
+            <tr class="row"><td class="entry colsep-1 rowsep-1" headers="configuration-reference__parameters__entry__1">gateway.name</td><td class="entry colsep-1 rowsep-1" headers="configuration-reference__parameters__entry__2">Yes</td><td class="entry rowsep-1" headers="configuration-reference__parameters__entry__3">Unique gateway identifier.</td></tr>
+            <tr class="row"><td class="entry colsep-1 rowsep-1" headers="configuration-reference__parameters__entry__1">gateway.provider.endpoint</td><td class="entry colsep-1 rowsep-1" headers="configuration-reference__parameters__entry__2">Yes</td><td class="entry rowsep-1" headers="configuration-reference__parameters__entry__3">AI provider base URL.</td></tr>
+            <tr class="row"><td class="entry colsep-1 rowsep-1" headers="configuration-reference__parameters__entry__1">gateway.security.promptInjection</td><td class="entry colsep-1 rowsep-1" headers="configuration-reference__parameters__entry__2">No</td><td class="entry rowsep-1" headers="configuration-reference__parameters__entry__3">Enables prompt-injection checks.</td></tr>
+            <tr class="row"><td class="entry colsep-1 rowsep-1" headers="configuration-reference__parameters__entry__1">gateway.security.sensitiveDataDetection</td><td class="entry colsep-1 rowsep-1" headers="configuration-reference__parameters__entry__2">No</td><td class="entry rowsep-1" headers="configuration-reference__parameters__entry__3">Enables sensitive-data checks.</td></tr>
+            <tr class="row"><td class="entry colsep-1" headers="configuration-reference__parameters__entry__1">gateway.logging.mode</td><td class="entry colsep-1" headers="configuration-reference__parameters__entry__2">No</td><td class="entry" headers="configuration-reference__parameters__entry__3">Controls information retained in security logs.</td></tr>
+          </tbody></table>
+    </section>
+  </div>
+</article></main></body></html>

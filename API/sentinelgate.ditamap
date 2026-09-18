@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>SentinelGate AI Security Gateway Documentation</title>
+  <topicref href="overview.dita"/>
+  <topicref href="quickstart.dita"/>
+  <topicref href="admin-guide.dita"/>
+  <topicref href="api-reference.dita"/>
+  <topicref href="configuration-reference.dita"/>
+  <topicref href="troubleshooting.dita"/>
+  <topicref href="release-notes.dita"/>
+  <topicref href="ai-workflow.dita"/>
+</map>
